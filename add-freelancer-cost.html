@@ -218,10 +218,10 @@
               >
                 <div>
                   <h2 class="text-lg font-bold mb-2 dark:text-gray-100">
-                    ثبت هزینه تنخواه
+                    ثبت هزینه برای فریلسنر
                   </h2>
                   <p class="text-gray-500 text-sm dark:text-gray-300">
-                    در این صفحه هزینه جدید برای تنخواه شرکت ها ثبت می‌نمایید.
+                    در این صفحه هزینه جدید برای فریلنسر ها ثبت می‌نمایید.
                   </p>
                 </div>
                 <div class="hidden lg:flex">
@@ -241,39 +241,16 @@
               <div
                 class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
               ></div>
-              <!-- setting 1 -->
+              <!-- setting 1 select box -->
               <div
                 class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
               >
                 <div>
                   <h3 class="text-md font-bold mb-2 dark:text-gray-100">
-                    عنوان هزینه
+                    نام فریلنسر
                   </h3>
                   <p class="text-gray-500 text-sm dark:text-gray-300">
-                    این هزینه برای خرید چه کالا یا سرویسی ثبت می‌شود؟
-                  </p>
-                </div>
-                <div class="w-full lg:w-auto">
-                  <input
-                    type="text"
-                    placeholder="  خرید بسته اینترنت..."
-                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
-                  />
-                </div>
-              </div>
-              <div
-                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
-              ></div>
-              <!-- setting 2 -->
-              <div
-                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
-              >
-                <div>
-                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
-                    شرکت/کسب و کار
-                  </h3>
-                  <p class="text-gray-500 text-sm dark:text-gray-300">
-                    این هزینه جزو هزینه های کدام شرکت/کسب و کار می ‌باشد
+                    نام فریلنسر را انتخاب کنید
                   </p>
                 </div>
                 <div class="w-full lg:w-auto">
@@ -282,17 +259,40 @@
                     name=""
                     id=""
                   >
-                    <option value="1">فروشگاه بانوریس</option>
-                    <option value="1">توکان تجارت آرسس</option>
-                    <option value="1">فروشگاه لباس</option>
-                    <option value="1">فروشگاه لوازم آرایشی</option>
+                    <option value="1">آیسان قلیپور</option>
+                    <option value="1">فاطمه خوان محمدی</option>
+                    <option value="1">ندا خالقی</option>
+                    <option value="1">نسترن دشتی</option>
                   </select>
                 </div>
               </div>
               <div
                 class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
               ></div>
-              <!-- setting 3 -->
+              <!-- setting 2 text -->
+              <div
+                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
+              >
+                <div>
+                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
+                    عنوان هزینه
+                  </h3>
+                  <p class="text-gray-500 text-sm dark:text-gray-300">
+                    این هزینه برای چه خدمات یا سرویسی ثبت می‌شود؟
+                  </p>
+                </div>
+                <div class="w-full lg:w-auto">
+                  <input
+                    type="text"
+                    placeholder="سفارش طراحی لوگو ..."
+                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                  />
+                </div>
+              </div>
+              <div
+                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
+              ></div>
+              <!-- setting 3 text -->
               <div
                 class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
               >
@@ -315,30 +315,7 @@
               <div
                 class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
               ></div>
-              <!-- setting 4 -->
-              <div
-                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
-              >
-                <div>
-                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
-                    خریدار
-                  </h3>
-                  <p class="text-gray-500 text-sm dark:text-gray-300">
-                    نام شخص خریدار کالا/خدمات
-                  </p>
-                </div>
-                <div class="w-full lg:w-auto">
-                  <input
-                    type="text"
-                    placeholder="میثم دوستی"
-                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
-                  />
-                </div>
-              </div>
-              <div
-                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
-              ></div>
-              <!-- setting 5 -->
+              <!-- setting 4 textarea-->
               <div
                 class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-start lg:gap-0"
               >
@@ -355,42 +332,15 @@
                     name=""
                     id=""
                     rows="5"
-                    placeholder="توضیحات خرید (اختیاری)"
-                    class="w-full lg:w-96 bg-white dark:text-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                    placeholder="توضیحات سفارش (اختیاری)"
+                    class="w-full dark:text-white lg:w-96 bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
                   ></textarea>
                 </div>
               </div>
               <div
                 class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
               ></div>
-              <!-- setting 6 -->
-              <div
-                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
-              >
-                <div>
-                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
-                    وضعیت پرداخت
-                  </h3>
-                  <p class="text-gray-500 text-sm dark:text-gray-300">
-                    وضعیت پرداختی این هزینه تنخواه
-                  </p>
-                </div>
-                <div class="w-full lg:w-auto">
-                  <select
-                    class="w-full lg:w-96 text-gray-500 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
-                    name=""
-                    id=""
-                  >
-                    <option value="1">پرداخت شده</option>
-                    <option value="1">در انتظار پرداخت</option>
-                    <option value="1">صدور چک</option>
-                  </select>
-                </div>
-              </div>
-              <div
-                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
-              ></div>
-              <!-- setting 7 -->
+              <!-- setting 5  select box-->
               <div
                 class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
               >
@@ -419,39 +369,67 @@
               <div
                 class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
               ></div>
-              <!-- setting 8 -->
+              <!-- setting 6  select box-->
               <div
                 class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
               >
                 <div>
                   <h3 class="text-md font-bold mb-2 dark:text-gray-100">
-                    تاریخ خرید
+                    وضعیت پرداخت
                   </h3>
                   <p class="text-gray-500 text-sm dark:text-gray-300">
-                    تاریخ خرید کالا یا خدمات
+                    وضعیت پرداخت این سفارش
+                  </p>
+                </div>
+                <div class="w-full lg:w-auto">
+                  <select
+                    class="w-full lg:w-96 text-gray-500 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                    name=""
+                    id=""
+                  >
+                    <option value="1">پرداخت شده</option>
+                    <option value="1">در انتظار پرداخت</option>
+                    <option value="1">صدور چک</option>
+                  </select>
+                </div>
+              </div>
+              <div
+                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
+              ></div>
+
+              <!-- setting 7 date-time -->
+              <div
+                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
+              >
+                <div>
+                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
+                    تاریخ پرداخت
+                  </h3>
+                  <p class="text-gray-500 text-sm dark:text-gray-300">
+                    تاریخ واریز هزینه سفارش
                   </p>
                 </div>
                 <div class="w-full lg:w-auto">
                   <input
                     type="datetime-local"
                     placeholder=""
-                    class="w-full lg:w-96 bg-white dark:text-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
                   />
                 </div>
               </div>
               <div
                 class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
               ></div>
-              <!-- setting 9 -->
+              <!-- setting 8 file upload -->
               <div
                 class="flex flex-col gap-4 items-start justify-between md:flex-row md:items-center md:gap-0"
               >
                 <div>
                   <h3 class="text-md font-bold mb-2 dark:text-gray-100">
-                    تصویر فاکتور و فیش پرداختی
+                    تصویر فیش پرداختی
                   </h3>
                   <p class="text-gray-500 text-sm dark:text-gray-300">
-                    تصویر فاکتور یا فیش پرداختی این هزینه
+                    تصویر فیش پرداختی این سفارش
                   </p>
                 </div>
                 <div class="">
@@ -518,7 +496,7 @@
                 >
               </li>
               <li
-                class="text-gray-800 dark:text-white font-bold dark:hover:text-gray-400"
+                class="hover:text-gray-800 font-bold dark:hover:text-gray-400"
               >
                 <a
                   href="./tankhah-dashboard.html"
@@ -541,7 +519,9 @@
                   <span>مدیریت تنخواه</span></a
                 >
               </li>
-              <li class="hover:text-gray-800 dark:hover:text-gray-400">
+              <li
+                class="text-gray-800 dark:text-white dark:hover:text-gray-400"
+              >
                 <a
                   href="./freelancers-dashboard.html"
                   class="flex items-center gap-2"
@@ -803,9 +783,7 @@
                     <span>داشبورد</span></a
                   >
                 </li>
-                <li
-                  class="text-gray-800 dark:text-white dark:hover:text-gray-400"
-                >
+                <li class="hover:text-gray-800 dark:hover:text-gray-400">
                   <a
                     href="./tankhah-dashboard.html"
                     class="flex items-center gap-2"
@@ -827,7 +805,9 @@
                     <span>مدیریت تنخواه</span></a
                   >
                 </li>
-                <li class="hover:text-gray-800 dark:hover:text-gray-400">
+                <li
+                  class="text-gray-800 dark:text-white dark:hover:text-gray-400"
+                >
                   <a
                     href="./freelancers-dashboard.html"
                     class="flex items-center gap-2"
