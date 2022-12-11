@@ -183,7 +183,7 @@
               </svg>
             </div>
             <a
-              href="./add-freelancer.html"
+              href="#"
               class="p-3 px-4 rounded-lg bg-[#0b9b82] text-white duration-200 hover:bg-[#32bba4] text-sm"
               >افزودن فریلنسر</a
             >
@@ -206,433 +206,171 @@
               </svg>
             </a>
           </header>
-          <!-- buttons and header -->
-          <div
-            class="flex flex-col md:flex-row md:items-center justify-between gap-4 py-6 px-2 md:px-4"
-          >
-            <div>
-              <h2 class="text-lg font-bold text-gray-700 dark:text-white mb-1">
-                مدیریت همکاران فریلنسر
-              </h2>
-              <p class="text-xs dark:text-white">9 مورد ثبت شده</p>
-            </div>
-            <div class="flex gap-2 md:gap-4 justify-between text-gray-700">
-              <a
-                href="#"
-                class="p-2 px-2 rounded-lg bg-white dark:bg-slate-700 dark:text-white dark:border-gray-600 dark:hover:bg-gray-600 border hover:bg-gray-100 duration-200"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"
-                  />
-                </svg>
-              </a>
-              <a
-                href="#"
-                class="p-3 px-3 xs:px-4 rounded-lg text-xs xs:text-sm bg-white dark:bg-slate-700 dark:text-white dark:border-gray-600 dark:hover:bg-gray-600 border hover:bg-gray-100 duration-200"
-                >مرتب سازی : بر اساس تاریخ</a
-              >
-              <a
-                href="#"
-                class="p-3 px-3 xs:px-4 rounded-lg text-xs xs:text-sm bg-white border hover:bg-gray-100 dark:bg-slate-700 dark:text-white dark:border-gray-600 dark:hover:bg-gray-600 duration-200"
-              >
-                < آبان 1401 ></a
-              >
-            </div>
-          </div>
-          <!-- boxes -->
+          <!-- Form -->
           <div class="py-6 px-4">
-            <!-- report boxes -->
-            <div
-              class="flex flex-col mb-5 items-center flex-wrap xl:flex-nowrap justify-around gap-2 lg:gap-2 xl:gap-4 md:flex-row"
+            <form
+              action="#"
+              class="flex flex-col gap-5 text-gray-700 border dark:border-gray-600 p-6 rounded-xl"
+              method="POST"
             >
-              <!-- box1 -->
               <div
-                class="bg-gray-100 dark:bg-slate-700 dark:border-gray-600 dark:hover:border-gray-400 w-full md:w-[49%] xl:w-full py-4 px-4 rounded-lg md:h-32 border duration-200 border-white hover:border-gray-200"
+                class="flex flex-col items-start justify-between lg:flex-row lg:items-center"
               >
-                <p class="text-gray-600 dark:text-white mb-1">
-                  بودجه فریلنسرها
-                </p>
-                <p class="text-gray-800 dark:text-white text-sm font-bold mb-1">
-                  21/870/000 تومان
-                </p>
-                <p class="text-gray-600 dark:text-white text-xs">
-                  بودجه ماهانه 2/000/000
-                </p>
+                <div>
+                  <h2 class="text-lg font-bold mb-2 dark:text-gray-100">
+                    افزودن فریلنسر جدید
+                  </h2>
+                  <p class="text-gray-500 text-sm dark:text-gray-300">
+                    در این صفحه همکار فریلنسر جدیدی ثبت می‌نمایید.
+                  </p>
+                </div>
+                <div class="hidden lg:flex">
+                  <button
+                    type="submit"
+                    class="p-2 px-8 rounded-lg ml-2 bg-slate-900 text-white duration-200 hover:bg-slate-700 text-sm dark:bg-slate-600 dark:border dark:border-gray-300"
+                  >
+                    ذخیره
+                  </button>
+                  <a
+                    href="#"
+                    class="p-2 px-2 rounded-lg bg-white border hover:bg-gray-100 duration-200 text-sm"
+                    >انصراف</a
+                  >
+                </div>
               </div>
-              <!-- box2 -->
               <div
-                class="bg-gray-100 dark:bg-slate-700 dark:border-gray-600 dark:hover:border-gray-400 w-full md:w-[49%] xl:w-full py-4 px-4 rounded-lg md:h-32 border duration-200 border-white hover:border-gray-200"
-              >
-                <p class="text-gray-600 dark:text-white mb-1">
-                  واریزی های 30 روز گذشته
-                </p>
-                <p class="text-gray-800 dark:text-white text-sm font-bold mb-1">
-                  1/420/000 تومان
-                </p>
-                <p class="text-gray-600 dark:text-white text-xs">
-                  به 7 فریلنسر
-                </p>
-              </div>
-              <!-- box3 -->
+                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
+              ></div>
+              <!-- setting 1 text -->
               <div
-                class="bg-gradient-to-b md:w-[49%] xl:w-full from-[#13bda0] to-[#0b9b82] w-full py-4 px-4 rounded-lg md:h-32 border duration-200 border-white hover:border-blue-300"
+                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
               >
-                <p class="text-white dark:text-white mb-1">
-                  جمع واریزی‌های سال
-                </p>
-                <p class="text-white dark:text-white text-sm font-bold">
-                  5/350/000 تومان
-                </p>
-                <p class="text-white dark:text-white text-xs">به 7 فریلنسر</p>
+                <div>
+                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">نام</h3>
+                  <p class="text-gray-500 text-sm dark:text-gray-300">
+                    نام فریلنسر جدید
+                  </p>
+                </div>
+                <div class="w-full lg:w-auto">
+                  <input
+                    type="text"
+                    placeholder="بهروز وثوقی..."
+                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                  />
+                </div>
               </div>
-              <!-- box4 -->
               <div
-                class="bg-gray-100 dark:bg-slate-700 dark:border-gray-600 dark:hover:border-gray-400 w-full md:w-[49%] xl:w-full py-4 px-4 rounded-lg md:h-32 border duration-200 border-white hover:border-gray-200"
+                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
+              ></div>
+
+              <!-- setting 2 text -->
+              <div
+                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
               >
-                <p class="text-gray-600 dark:text-white mb-1">
-                  تعداد فریلنسرها
-                </p>
-                <p class="text-gray-800 dark:text-white text-sm font-bold">
-                  14 نفر
-                </p>
+                <div>
+                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
+                    تخصص
+                  </h3>
+                  <p class="text-gray-500 text-sm dark:text-gray-300">
+                    حوزه فعالیت و ارائه خدمات
+                  </p>
+                </div>
+                <div class="w-full lg:w-auto">
+                  <input
+                    type="text"
+                    placeholder="تولید کننده محتوا"
+                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                  />
+                </div>
               </div>
-            </div>
-          </div>
-          <!-- table and pagination -->
-          <div id="table-pagination-div">
-            <!-- tables -->
-            <div class="overflow-x-auto relative py-2 px-4 dark:text-white">
-              <table class="table-auto w-full text-sm mb-10 overflow-x-visible">
-                <thead>
-                  <tr class="text-right text-gray-500 dark:text-white">
-                    <th class="table-th">کد</th>
-                    <th class="table-th">نام فریلنسر</th>
-                    <th class="table-th">تخصص</th>
-                    <th class="table-th">سفارشات</th>
-                    <th class="table-th">آخرین پرداختی</th>
-                    <th class="table-th">بانک</th>
-                    <th class="table-th">شماره حساب/کارت</th>
-                    <th class="table-th">جمع پرداختی‌ها</th>
-                    <th class="table-th">تاریخ ثبت نام</th>
-                    <th class="table-th"></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="table-row group">
-                    <td class="table-td">FR-006</td>
-                    <td class="table-td">آیسان قلیپور</td>
-                    <td class="table-td">نویسنده پست وبلاگ</td>
-                    <td class="table-td">14</td>
-                    <td class="table-td">1401-02-04</td>
-                    <td class="table-td">ملی</td>
-                    <td class="table-td">6037887455623366</td>
-                    <td class="table-td">23/400/000</td>
-                    <td class="table-td">1400-01-03</td>
-                    <td class="table-td">
-                      <div class="lg:invisible group-hover:visible">
-                        <div
-                          class="flex items-center justify-around gap-4 md:gap-2 w-full"
-                        >
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
-                              />
-                            </svg>
-                          </a>
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"
-                              />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="table-row group">
-                    <td class="table-td">FR-005</td>
-                    <td class="table-td">فاطمه خان محمدی</td>
-                    <td class="table-td">گرافیست</td>
-                    <td class="table-td">23</td>
-                    <td class="table-td">1401-03-12</td>
-                    <td class="table-td">سپه</td>
-                    <td class="table-td">5037341455223315</td>
-                    <td class="table-td">23/400/000</td>
-                    <td class="table-td">1400-02-05</td>
-                    <td class="table-td">
-                      <div class="lg:invisible group-hover:visible">
-                        <div
-                          class="flex items-center justify-around gap-4 md:gap-2 w-full"
-                        >
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
-                              />
-                            </svg>
-                          </a>
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"
-                              />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="table-row group">
-                    <td class="table-td">FR-004</td>
-                    <td class="table-td">نشمیل فتاحی</td>
-                    <td class="table-td">دیزاینر / توسعه دهنده</td>
-                    <td class="table-td">2</td>
-                    <td class="table-td">1401-04-11</td>
-                    <td class="table-td">ملی</td>
-                    <td class="table-td">5037887465323312</td>
-                    <td class="table-td">13/400/000</td>
-                    <td class="table-td">1401-01-05</td>
-                    <td class="table-td">
-                      <div class="lg:invisible group-hover:visible">
-                        <div
-                          class="flex items-center justify-around gap-4 md:gap-2 w-full"
-                        >
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
-                              />
-                            </svg>
-                          </a>
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"
-                              />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="table-row group">
-                    <td class="table-td">FR-003</td>
-                    <td class="table-td">غزال عشقی</td>
-                    <td class="table-td">دیزاینر</td>
-                    <td class="table-td">11</td>
-                    <td class="table-td">1401-11-21</td>
-                    <td class="table-td">ملی</td>
-                    <td class="table-td">6037887455623366</td>
-                    <td class="table-td">21/400/000</td>
-                    <td class="table-td">1400-02-30</td>
-                    <td class="table-td">
-                      <div class="lg:invisible group-hover:visible">
-                        <div
-                          class="flex items-center justify-around gap-4 md:gap-2 w-full"
-                        >
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
-                              />
-                            </svg>
-                          </a>
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"
-                              />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="table-row group">
-                    <td class="table-td">FR-001</td>
-                    <td class="table-td">ندا خالقی</td>
-                    <td class="table-td">متخصص سئو</td>
-                    <td class="table-td">1</td>
-                    <td class="table-td">1401-02-04</td>
-                    <td class="table-td">ملی</td>
-                    <td class="table-td">5037887455623326</td>
-                    <td class="table-td">33/400/000</td>
-                    <td class="table-td">1400-02-31</td>
-                    <td class="table-td">
-                      <div class="lg:invisible group-hover:visible">
-                        <div
-                          class="flex items-center justify-around gap-4 md:gap-2 w-full"
-                        >
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
-                              />
-                            </svg>
-                          </a>
-                          <a
-                            href="#"
-                            class="hover:text-greenOne dark:hover:text-green-400"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="w-5 h-5"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"
-                              />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <!-- pagination -->
-            <div
-              class="w-full flex items-center justify-between text-gray-600 dark:text-white py-6 px-4 text-sm mb-10"
-            >
-              <a
-                href="#"
-                class="p-2 px-4 rounded-lg bg-white border hover:bg-gray-100 dark:bg-slate-700 dark:text-white dark:border-gray-600 dark:hover:bg-gray-600 duration-200 text-xs"
-                >صفحه قبل</a
+              <div
+                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
+              ></div>
+              <!-- setting 3 text -->
+              <div
+                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
               >
-              <div class="flex gap-4">
-                <a href="#" class="hover:text-[#32bba4]">1</a>
-                <a href="#" class="hover:text-[#32bba4]">2</a>
-                <a href="#" class="font-bold hover:text-[#32bba4]">3</a>
-                <a href="#">...</a>
-                <a href="#" class="hover:text-[#32bba4]">9</a>
+                <div>
+                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
+                    بانک
+                  </h3>
+                  <p class="text-gray-500 text-sm dark:text-gray-300">
+                    نام بانک دارنده حساب
+                  </p>
+                </div>
+                <div class="w-full lg:w-auto">
+                  <input
+                    type="text"
+                    placeholder="ملی"
+                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                  />
+                </div>
               </div>
-              <a
-                href="#"
-                class="p-2 px-4 rounded-lg bg-white dark:bg-slate-700 dark:text-white dark:border-gray-600 dark:hover:bg-gray-600 border hover:bg-gray-100 duration-200 text-xs"
-                >صفحه بعد</a
+              <div
+                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
+              ></div>
+              <!-- setting 4 text -->
+              <div
+                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
               >
-            </div>
+                <div>
+                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
+                    شماره حساب
+                  </h3>
+                  <p class="text-gray-500 text-sm dark:text-gray-300">
+                    شماره حساب بانکی
+                  </p>
+                </div>
+                <div class="w-full lg:w-auto">
+                  <input
+                    type="text"
+                    placeholder="0322822822009(اختیاری)"
+                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                  />
+                </div>
+              </div>
+              <div
+                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
+              ></div>
+              <!-- setting 5 text -->
+              <div
+                class="flex flex-col gap-4 items-start justify-between lg:flex-row lg:items-center lg:gap-0"
+              >
+                <div>
+                  <h3 class="text-md font-bold mb-2 dark:text-gray-100">
+                    شماره کارت
+                  </h3>
+                  <p class="text-gray-500 text-sm dark:text-gray-300">
+                    شماره کارت بانکی
+                  </p>
+                </div>
+                <div class="w-full lg:w-auto">
+                  <input
+                    type="text"
+                    placeholder="6037998119485349"
+                    class="w-full lg:w-96 dark:text-white bg-white focus:outline-none text-sm p-4 px-4 rounded-lg border border-gray-200 focus:border-[#0b9b82] focus:outline focus:outline-green-100 dark:bg-slate-700"
+                  />
+                </div>
+              </div>
+              <div
+                class="pb-1 border-b border-gray-100 mx-10 dark:border-gray-700"
+              ></div>
+
+              <!-- mobile submit -->
+              <div class="lg:hidden flex justify-end gap-3 mt-5">
+                <button
+                  type="submit"
+                  class="p-2 px-8 rounded-lg ml-2 bg-slate-900 text-white duration-200 hover:bg-slate-700 text-sm dark:bg-slate-600 dark:border dark:border-gray-300"
+                >
+                  ذخیره
+                </button>
+                <a
+                  href="#"
+                  class="p-2 px-2 rounded-lg bg-white border hover:bg-gray-100 duration-200 text-sm"
+                  >انصراف</a
+                >
+              </div>
+            </form>
           </div>
         </main>
 
